@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<div class="topnav">
+    <a class="#index" href="index.html">Home</a>
+    <a class="active" href="minigame.html">minigame</a>
+    <title>minigame</title>
+    <h1>Guess how many </h1>
+</head>
+
+<body>
+
+
+<p>Try and guess how many spots rng has!
+see if you can guess it(1-100)</p>
+
+<div class="form">
+<label for="guessField">Enter a guess: </label>
+<input type = "text" id = "guessField" class = "guessField">
+<input type = "submit" value = "Submit guess"
+class = "guessSubmit" id = "submitguess">
+</div>
+
+<script type = "text/javascript">
+
+var y = Math.floor(Math.random() * 100 + 1);
+
+var guess = 1;
+
+document.getElementById("submitguess").onclick = function(){
+
+var x = document.getElementById("guessField").value;
+
+if(x == y)
+{
+alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
++ guess + " GUESS ");
+}
+else if(x > y) 
+{
+guess++;
+alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+}
+else
+{
+guess++;
+alert("OOPS SORRY!! TRY A GREATER NUMBER")
+}
+}
+</script>
+</body>
+</html>
