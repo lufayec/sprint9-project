@@ -48,7 +48,7 @@ topnav {
       }
 @font-face {
   font-family: customfont;
-  src: url(QuickJelly.otf);
+  src: url(QuickJelly.ttf);
 }
 .title {
   font-family: customfont;
