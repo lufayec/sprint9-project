@@ -46,5 +46,8 @@ topnav {
         margin-right: auto;
 
       }
-
+@font-face {
+  font-family: customfont;
+  src: url(QuickJelly.otf);
+}
     
