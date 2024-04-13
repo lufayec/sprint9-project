@@ -51,6 +51,6 @@ topnav {
   src: url(QuickJelly.otf);
 }
 .title {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: customfont;
 }
     
