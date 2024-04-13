@@ -1,3 +1,5 @@
 
-const music = new Audio("./sounds/minecraft.mp3");
+const music = new Audio("minecraft.mp3");
 music.loop = true;
+//const minecraft = new Audio("minecraft.mp3");
+//waterDrop.loop = true;
