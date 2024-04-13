@@ -48,7 +48,7 @@ topnav {
       }
 @font-face {
   font-family: customfont;
-  src: url(QuickJelly.ttf);
+  src: url(QuickJelly.otf);
 }
 .title {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
