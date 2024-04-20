@@ -6,5 +6,6 @@ const wind = new Audio("wind.mp3");
 //});
 //var wind = document.getElementById("wind.mp3").autoplay;
 function playSound(){
+    wind.volume=0.3;
     wind.play()
 }
