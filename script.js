@@ -1,5 +1,5 @@
 
-const music = new Audio("wind.mp3");
+const wind = new Audio("wind.mp3");
 //wind.loop = true;
 //window.addEventListener("mousemove",()=>{
   //  wind.play();
